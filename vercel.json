@@ -1,0 +1,15 @@
+{
+    "rewrites": [
+        {
+            "source": "/vercel",
+            "has": [
+                {
+                    "type": "query",
+                    "key": "goto",
+                    "value": "vercel"
+                }
+            ],
+            "destination": "https://vercel.com/"
+        }
+    ]
+}
